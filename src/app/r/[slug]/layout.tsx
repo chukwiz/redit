@@ -95,7 +95,7 @@ const Layout = async ({
                 />
               ) : null}
 
-                <Link href={`r/${slug}/submit`} className={buttonVariants({
+                <Link href={`${slug}/submit`} className={buttonVariants({
                   variant: "outline",
                   className: " w-full mb-6"
                 })}>Create Post</Link>
