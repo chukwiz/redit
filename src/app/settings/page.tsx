@@ -3,7 +3,7 @@ import { authOptions, getAuthSession } from "@/lib/auth";
 import { redirect } from "next/navigation";
 import { FC } from "react";
 
-export const medtadata = {
+export const metadata = {
   title: "Settings",
   description: "Manage account and general settings",
 };
